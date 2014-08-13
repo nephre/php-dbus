@@ -8,7 +8,7 @@ This is version 0.1.1, as package.xml from PEAR states.
 
 Installation
 -----------
-Below installation instructions are usable only, if you're installing it as a pure PHP extension. If this package name is added as `require` or `require-dev` section in composer.json, it will be installed automagically.
+Below installation instructions are usable only, if you're installing it as a pure PHP extension.
 
 ```bash
 phpize
@@ -16,6 +16,10 @@ configure
 make
 sudo make install
 ```
+
+TODO
+----
+* If this package name is added as `require` or `require-dev` section in composer.json, it will be downloaded and placed in vendor-dir. I need to prepare install scripts.
 
 Notes
 -----
