@@ -1,0 +1,18 @@
+.idea
+.deps
+
+/vendor/
+/build/
+/autom4te.cache/
+/include/
+/modules/
+
+! config.m4
+ac*.m4
+config*
+
+*sh
+Makefile*
+missing
+mkinstalldirs
+*.php
