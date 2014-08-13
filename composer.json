@@ -1,13 +1,17 @@
 {
     "name": "nephre/php-dbus",
     "description": "DBUS bindings for PHP language",
-    "keywords": ["dbus", "php", "derick", "rethans"],
-    "type": "extension",
+    "homepage": "http://pecl.php.net/rest/r/dbus/",
+    "version": "0.1.1",
+    "keywords": ["dbus", "php", "derick", "rethans", "extension", "module"],
+    "type": "library",
+    "time": "2014-08-13",
     "license": "PHP-3.01",
     "authors": [
         {
             "name": "Derick Rethans",
             "email": "derick@php.net",
+            "homepage": "http://derickrethans.nl/",
             "role": "Author"
         },
         {
@@ -16,8 +20,6 @@
             "role": "Maintainer"
         }
     ],
-    "minimum-stability": "dev",
-    "version": "0.1.1",
     "require": {
         "php": ">=5.4",
         "lib-libxml": "*",
@@ -25,7 +27,6 @@
     },
     "provide": {
         "lib-libxml": "*",
-        "ext-xml": "*",
-        "ext-dbus": "self.version"
+        "ext-xml": "*"
     }
 }
