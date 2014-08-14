@@ -1,6 +1,7 @@
 {
     "name": "nephre/php-dbus",
     "type": "library",
+    "version": "0.1.1",
     "description": "DBUS bindings for PHP language",
     "homepage": "http://pecl.php.net/rest/r/dbus/",
     "keywords": ["dbus", "php", "derick", "rethans", "extension", "module"],
